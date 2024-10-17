@@ -1,0 +1,60 @@
+@font-face {
+    font-family:'love' ;
+    src: url('fontes/idroid.otf') format('opentype');
+}
+h1{
+color: rgb(0, 0, 0);
+text-align: center;
+
+}
+header{
+    background-image: linear-gradient( black,
+    red);
+    height: 200px;
+    
+}
+nav{
+    color: aqua;
+    margin-top: 98px;
+    margin-left: 14px;
+   font-size: larger;
+   margin-right: 30px;
+}
+p{
+    text-align: center;
+    color: cornsilk;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+div{
+    background-color: rgb(212, 206, 118);
+    width: 650px;
+    text-align: center;
+    margin: auto;
+    height: 2050px;
+}
+.basico{
+    text-align: left;
+    font-family: 'love';
+    margin-left: 30px;
+    padding-top: 10px;
+}
+img{
+    width: 650px;
+    border: 2px solid black;
+}
+.div{
+    background-color: aqua;
+    height: 350px; ;
+    width: 600px;
+}
+.h1{
+    text-align: left;
+    font-family: 'love';
+    margin-left: 30px;
+    padding-top: 10px;
+    background-color: rgb(6, 15, 15);
+    
+}

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/*{height: 100%;}*/
+p{text-align: justify;font-family: monospace}
+body{
+    background-image: linear-gradient(to left,#023535,#015958);}
+main{background-color: aliceblue;
+width: 600px;padding: 10px;margin: auto;border-radius: 2%;
+box-shadow: 5px 5px 15px #0120209d ;
+}
+h1{text-align: center;
+color:#008F8C;
+
+}
+h2{
+color:#0CABA8;
+}
