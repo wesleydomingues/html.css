@@ -1,7 +1,23 @@
 
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Rubik+Wet+Paint&display=swap');
+
+:root{
+ --font1: Verdana, Geneva, Tahoma, sans-serif; 
+ --font2: 'Rubik Wet Paint';
+ --font3: 'Bebas Neue';
+
+}
+
+
+
+
+
+
 section >pre{
     white-space: pre-line;
+    
 }
 
 *{
@@ -11,6 +27,7 @@ section >pre{
 html, body{
     min-height: 100vh;
     background-color: bisque;
+   
 }
  
 header{
@@ -21,6 +38,8 @@ header{
 
 header >h1{
     padding: 50px;
+    font-family: var(--font2);
+    
 
 }
 header >p{
@@ -50,7 +69,6 @@ line-height: 2em;
 padding-left: 30px;
 
 
-
 }
 .normal{
     background-color: white;
@@ -65,3 +83,7 @@ section > .pre > p {
    background-color: rgba(0, 0, 0, 0.425); 
    width: 400px;
 }
+pre{
+    font-family: var(--font3);
+}
+
