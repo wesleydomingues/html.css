@@ -17,6 +17,7 @@
 
 section >pre{
     white-space: pre-line;
+
     
 }
 
@@ -79,11 +80,35 @@ padding-left: 30px;
     background-color: rgba(0, 0, 0, 0.741);
    color: white;
 }
-section > .pre > p {
+.pre > p {
    background-color: rgba(0, 0, 0, 0.425); 
    width: 400px;
-}
+   text-shadow: 1px -1px 3px rgb(0, 0, 0);}
 pre{
     font-family: var(--font3);
+   
 }
 
+pre > p{
+    font-size: xx-large;
+
+  
+}
+
+#img01{
+background-image: url(imagens/background001.jpg);
+background-position: right center;
+background-size: cover;
+background-attachment: fixed;
+
+
+
+}
+
+#img02{
+    background-image: url(imagens/background002.jpg);
+    background-position: ;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
