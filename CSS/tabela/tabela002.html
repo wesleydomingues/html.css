@@ -11,20 +11,40 @@
     table{
         width: 500px;
         border-collapse: collapse;
+        position: relative;
+        
+
         
 
     }
-    td, th{
+    td, th, caption{
    border: 1px solid black; 
    padding: 5px;
+   
     }
     thead, tfoot{
         background-color: aqua;
         color: black;
         
     }
+     caption{
+       font-weight: bolder;
+       font-size: 1.5em;
+       background-color: aqua;
+    } 
+tbody > tr:nth-child(odd){
+    background-color: bisque;
+}
+tbody > tr:nth-child(even){
+    background-color: rgba(255, 228, 196, 0.462);
+}
+thead > tr > tr {
+    position: sticky;
+    top: -1px;
+    background-color: aqua;
 
-
+}
+  
 
 
 
@@ -40,6 +60,7 @@
 </head>
 <body>
     <table>
+        <caption>tabela a top</caption>
         <thead>
             <tr>
                 <th>estado</th>
@@ -76,6 +97,66 @@
                 <td>amazanoas</td>
                 <td>55 5555</td>
             </tr>
+            <tr>
+                <td>tdmata groddo</td>
+                <td>55 4444</td>
+            </tr>
+
+            <tr>
+                <td>tdmata groddo</td>
+                <td>55 4444</td>
+            </tr>
+
+            <tr>
+                <td>tdmata groddo</td>
+                <td>55 4444</td>
+            </tr>
+
+            <tr>
+                <td>tdmata groddo</td>
+                <td>55 4444</td>
+            </tr>
+
+            <tr>
+                <td>tdmata groddo</td>
+                <td>55 4444</td>
+            </tr>
+
+            <tr>
+                <td>tdmata groddo</td>
+                <td>55 4444</td>
+            </tr>
+
+            <tr>
+                <td>tdmata groddo</td>
+                <td>55 4444</td>
+            </tr>
+
+            <tr>
+                <td>tdmata groddo</td>
+                <td>55 4444</td>
+            </tr>
+
+            <tr>
+                <td>tdmata groddo</td>
+                <td>55 4444</td>
+            </tr>
+
+            <tr>
+                <td>tdmata groddo</td>
+                <td>55 4444</td>
+            </tr>
+
+            <tr>
+                <td>tdmata groddo</td>
+                <td>55 4444</td>
+            </tr>
+
+            <tr>
+                <td>tdmata groddo</td>
+                <td>55 4444</td>
+            </tr>
+
             <tr>
                 <td>tdmata groddo</td>
                 <td>55 4444</td>
